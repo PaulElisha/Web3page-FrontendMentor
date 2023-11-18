@@ -252,6 +252,11 @@ const cardData = ref(CardData)
     color: hsl(236, 13%, 42%);
   }
 
+  .five {
+    display: grid;
+    grid-template-columns: 150px 250px;
+    gap: 10px;
+  }
   .item {
     display: flex;
     flex-direction: column;
@@ -263,10 +268,10 @@ const cardData = ref(CardData)
   }
 
   .title {
-    font-size: 16px;
+    font-size: 20px;
   }
   .text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 </style>
