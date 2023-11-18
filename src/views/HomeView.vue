@@ -229,11 +229,6 @@ const cardData = ref(CardData)
     /* grid-template-columns: 400px 400px 400px; */
     /* gap: 20px 15px; */
   }
-
-  .grid-container > div {
-    border: 1px solid black;
-  }
-
   .two {
     grid-row: 2;
     width: 100%;
